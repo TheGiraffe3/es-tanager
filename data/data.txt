@@ -1,0 +1,75 @@
+# Copyright (c) 2024 by bene-dictator and by TheGiraffe3
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+fleet "Small Southern Merchants"
+	add variant 6
+		"Tanager"
+	add variant 2
+		"Tanager"
+		"Sparrow"
+	add variant 2
+		"Tanager"
+		"Shuttle"
+	add variant
+		"Tanager"
+		"Argosy"
+	add variant
+		"Tanager"
+		"Hawk"
+
+
+ship "Tanager"
+	sprite "ship/tanager"
+	thumbnail "thumbnail/tanager"
+	attributes
+		category "Transport"
+		"cost" 520000
+		"shields" 700
+		"hull" 1200
+		"required crew" 1
+		"bunks" 8
+		"mass" 113
+		"drag" 3
+		"heat dissipation" .56
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 180
+		"weapon capacity" 28
+		"engine capacity" 70
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"Small Radar Jammer"
+
+		"Capybara Reverse Thruster"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+
+	engine -5 46.5
+	engine 5 46.5
+	gun -14 -47.5
+	gun 14 -47.5
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	leak "leak" 50 50
+	leak "flame" 60 80
+	description "The Tanager is a new model of transport ship from Tarazed Shipyards. More nimble compared to the models of shuttlecraft from Betelgeuse, it is also supplemented with a greater capacity for defensive armaments; a necessity in the region of space that surrounds Tarazed."
