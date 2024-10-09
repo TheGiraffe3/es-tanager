@@ -49,8 +49,8 @@ ship "Tanager"
 		"fuel capacity" 600
 		"cargo space" 45
 		"outfit space" 210
-		"weapon capacity" 30
-		"engine capacity" 75
+		"weapon capacity" 38
+		"engine capacity" 65
 		weapon
 			"blast radius" 21
 			"shield damage" 210
