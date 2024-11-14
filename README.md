@@ -1,3 +1,5 @@
+**This repository has been replaced by https://github.com/TheGiraffe3/rumskib**
+
 # Tanager
 
 Adds the Tanager, which is a newer, better version of the Shuttle.
